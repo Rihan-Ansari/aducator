@@ -1448,12 +1448,26 @@ footer {
 .news {
     padding-top: 30px;
 }
+.class{
+    width: 100%;
+   margin-top: 15px;
+}
+.class>button{
+    width: 100%;
+    height: 50px;
+    background-color: #41246d;
+    border: none;
+    font-size: 15px;
+    color: white;
+    border-radius: 30px;
+}
 
 .canbe {
     padding-top: 70px;
 }
 
 .canbe>input {
+    padding-left: 20px;
     width: 350px;
     height: 50px;
     border: 0.99px solid black;
@@ -1692,10 +1706,17 @@ footer {
         margin-bottom: 20px;
     }
 
+
+    .big_card {
+        width: 100%;
+        padding: 15px;
+    }
+
     .bgmi>p,
     .b1>p {
         font-size: 15px;
         line-height: 1.4;
+        padding-bottom: 20px;
     }
 
     .box5,
@@ -1711,6 +1732,7 @@ footer {
     }
 
     .card3 {
+        padding: 15px;
         display: flex;
         flex-direction: column;
         width: 100%;
@@ -1721,7 +1743,12 @@ footer {
         margin-bottom: 70px;
         width: 100%;
     }
-
+    .meet{
+        padding: 15px;
+    }
+    .button5>button{
+        width: 210px;
+    }
     .s9,
     .meet {
         display: block;
@@ -1730,8 +1757,8 @@ footer {
     .s9 {
         display: flex;
         flex-direction: column;
-        row-gap: 20px;
-        padding: 10px;
+        row-gap: 45px;
+        padding: 15px;
     }
 
     .s12>p {
@@ -1747,6 +1774,7 @@ footer {
     }
 
     .h2>h2 {
+        padding-bottom: 30px;
         font-size: 27px;
         padding-left: 0px;
     }
@@ -1859,6 +1887,7 @@ footer {
     }
 
     .boxthree {
+        padding: 16px;
         flex-direction: column;
         gap: 30px;
         margin: 0px;
@@ -2140,7 +2169,8 @@ footer {
     }
 
     .Features>p {
-        padding: 15px;
+        padding: 15px 63px;
+
     }
 
     .s15 {
