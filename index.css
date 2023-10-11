@@ -585,6 +585,7 @@ header .manu a {
 }
 
 .input input {
+    padding: 10px;
     width: 215;
     height: 40px;
     font-size: 15px;
@@ -1448,9 +1449,12 @@ footer {
 .news {
     padding-top: 30px;
 }
-.class{
-    width: 100%;
-   margin-top: 15px;
+
+
+.canbe {
+    display: flex;
+    padding-top: 70px;
+  
 }
 .class>button{
     width: 100%;
@@ -1460,10 +1464,7 @@ footer {
     font-size: 15px;
     color: white;
     border-radius: 30px;
-}
-
-.canbe {
-    padding-top: 70px;
+    margin-left: 30px;
 }
 
 .canbe>input {
@@ -1743,12 +1744,15 @@ footer {
         margin-bottom: 70px;
         width: 100%;
     }
-    .meet{
+
+    .meet {
         padding: 15px;
     }
-    .button5>button{
+
+    .button5>button {
         width: 210px;
     }
+
     .s9,
     .meet {
         display: block;
@@ -1770,6 +1774,20 @@ footer {
     }
 
     .s7 {
+        width: 100%;
+    }
+
+    .class>button {
+        width: 100%;
+        height: 50px;
+        background-color: #41246d;
+        border: none;
+        font-size: 15px;
+        color: white;
+        border-radius: 30px;
+    }
+
+    .class {
         width: 100%;
     }
 
@@ -1857,6 +1875,7 @@ footer {
 
     .input .name,
     .email {
+        margin-bottom: 10px;
         width: 100%;
         padding: 15px;
     }
@@ -2181,5 +2200,22 @@ footer {
         display: none;
     }
 
+    .class>button {
+margin: 0px;
+        width: 100%;
+        height: 50px;
+        background-color: #41246d;
+        border: none;
+        font-size: 15px;
+        color: white;
+        border-radius: 30px;
+    }
+    .canbe{
+        display: block;
+    }
+    .class {
+        width: 100%;
+        margin-top: 10px;
+    }
 
 }
